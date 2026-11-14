@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14213D">
+<title>Télécharger Digiform</title>
+<meta name="description" content="Digiform : CV, lettres, contrats, factures, cartes de visite et affiches sur votre téléphone.">
+<style>
+  :root { --ink:#14213D; --amber:#F2A900; --mist:#aeb8cc; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; color:#fff; background: radial-gradient(120% 60% at 80% -10%, #1d3566 0%, rgba(29,53,102,0) 60%), linear-gradient(180deg, #101c38 0%, #070d1c 70%); }
+  main { max-width: 520px; margin: 0 auto; padding: 36px 20px 48px; }
+  .logo { display:flex; align-items:center; gap:12px; font-size:20px; font-weight:800; }
+  .logo svg { width:44px; height:44px; border-radius:12px; box-shadow: 0 0 0 1.5px rgba(255,255,255,.25), 0 8px 24px rgba(0,0,0,.4); }
+  h1 { margin: 28px 0 8px; font-size: 32px; line-height: 1.1; letter-spacing: -0.03em; }
+  p.lead { margin: 0 0 24px; font-size: 16px; line-height: 1.55; color: var(--mist); }
+  .btn { display:block; padding:16px 20px; border-radius:16px; background: var(--amber); color:#14213D; text-align:center; text-decoration:none; font-size:18px; font-weight:800; box-shadow: 0 14px 34px -14px rgba(242,169,0,.8); }
+  .btn:active { transform: scale(.98); }
+  .meta { margin: 10px 0 0; text-align:center; font-size: 13px; color: var(--mist); min-height: 18px; }
+  .share { display:block; margin-top:12px; padding:13px; border:1px solid rgba(255,255,255,.2); border-radius:14px; color:#fff; text-align:center; text-decoration:none; font-weight:700; }
+  h2 { margin: 34px 0 12px; font-size: 18px; }
+  ol { margin:0; padding:0; list-style:none; counter-reset: s; display:grid; gap:10px; }
+  ol li { position:relative; padding: 14px 14px 14px 52px; border:1px solid rgba(255,255,255,.12); border-radius:14px; background: rgba(255,255,255,.04); line-height:1.45; font-size:15px; }
+  ol li::before { counter-increment: s; content: counter(s); position:absolute; left:14px; top:13px; display:grid; place-items:center; width:26px; height:26px; border-radius:50%; background: var(--amber); color:#14213D; font-weight:800; font-size:14px; }
+  .note { margin-top: 18px; padding: 14px; border-radius: 14px; background: rgba(242,169,0,.1); border:1px solid rgba(242,169,0,.35); font-size:14px; line-height:1.5; color:#ffe2a0; }
+  ul.feat { margin: 0; padding: 0; list-style: none; display:grid; gap:8px; color:#dfe7f5; font-size:15px; }
+  ul.feat li::before { content:'✓ '; color:#2dd4bf; font-weight:800; }
+  footer { margin-top: 36px; text-align:center; font-size:13px; color:#7d8aa6; }
+  footer a { color:#aeb8cc; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#14213D"/><path d="M20 13h17l11 11v27a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V17a4 4 0 0 1 4-4z" fill="#fff"/><path d="M37 13v9a2 2 0 0 0 2 2h9z" fill="#F2A900"/><path d="M25.5 30v16h5.2a8 8 0 0 0 0-16z" fill="none" stroke="#14213D" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+    Digiform
+  </div>
+  <h1>Vos documents pro, prêts en quelques minutes.</h1>
+  <p class="lead">CV, lettres, contrats, factures et devis, cartes de visite, affiches, cachet et signature. Tout sur votre téléphone Android.</p>
+
+  <a class="btn" id="dl" href="https://github.com/abdoula14cherif/digiform-config/releases/latest/download/Digiform.apk">Télécharger l'application</a>
+  <p class="meta" id="meta">Android · gratuit à l'installation</p>
+  <a class="share" id="share" href="#">Partager ce lien sur WhatsApp</a>
+
+  <h2>Pour l'installer</h2>
+  <ol>
+    <li>Touchez <strong>Télécharger l'application</strong> et attendez la fin du téléchargement.</li>
+    <li>Ouvrez le fichier <strong>Digiform.apk</strong> (dans vos notifications ou le dossier « Téléchargements »).</li>
+    <li>Si Android le demande, autorisez l'installation depuis ce navigateur (« Autoriser depuis cette source »), puis touchez <strong>Installer</strong>.</li>
+  </ol>
+  <div class="note">Google Play Protect peut afficher un avertissement car l'application ne vient pas du Play Store. Touchez « Plus de détails » puis « Installer quand même ».</div>
+
+  <h2>Ce que contient Digiform</h2>
+  <ul class="feat">
+    <li>CV : modèles par métier, PDF prêt à envoyer</li>
+    <li>Lettres, emails, contrats et reçus</li>
+    <li>Factures et devis avec TVA par pays</li>
+    <li>Cartes de visite avec QR code, affiches et statuts</li>
+    <li>Cachet et signature numériques</li>
+    <li>Vos données restent sur votre téléphone</li>
+  </ul>
+
+  <footer>Une question ? <a href="https://wa.me/237675371857" rel="noopener">WhatsApp +237 675 371 857</a> · <a href="confidentialite.html">Confidentialité</a></footer>
+</main>
+<script>
+  var REPO = 'abdoula14cherif/digiform-config';
+  var share = document.getElementById('share');
+  share.href = 'https://wa.me/?text=' + encodeURIComponent('Télécharge Digiform (CV, factures, cartes de visite…) : ' + location.href.split('#')[0]);
+  fetch('https://api.github.com/repos/' + REPO + '/releases/latest').then(function (r) { return r.ok ? r.json() : null; }).then(function (rel) {
+    if (!rel || !rel.assets || !rel.assets.length) return;
+    var a = rel.assets[0];
+    document.getElementById('dl').href = a.browser_download_url;
+    var mb = a.size ? (a.size / 1048576).toFixed(1).replace('.', ',') + ' Mo' : '';
+    var d = rel.published_at ? new Date(rel.published_at).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+    document.getElementById('meta').textContent = ['Version 1.' + String(rel.tag_name || '').replace(/^v/, ''), mb, d && 'mise à jour le ' + d].filter(Boolean).join(' · ');
+  }).catch(function () {});
+</script>
+</body>
+</html>
