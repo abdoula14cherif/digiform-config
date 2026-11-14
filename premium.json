@@ -1,0 +1,43 @@
+{
+  "premium": [],
+  "unlockAll": false,
+  "paiement": {
+    "lien": "",
+    "prix": "",
+    "libelle": "Payer maintenant",
+    "whatsapp": "237675371857"
+  },
+  "codes": [],
+  "plans": [
+    {
+      "id": "semaine",
+      "nom": "Pass semaine",
+      "prix": "500 FCFA",
+      "jours": 7,
+      "lien": "",
+      "populaire": false,
+      "avantages": [
+        "Tous les modèles premium débloqués pendant 7 jours",
+        "PDF sans limite : CV, lettres, contrats, factures",
+        "Cachet et signature sur vos documents",
+        "Parfait pour un besoin ponctuel"
+      ]
+    },
+    {
+      "id": "mois",
+      "nom": "Pass mois",
+      "prix": "1 500 FCFA",
+      "jours": 30,
+      "lien": "",
+      "populaire": true,
+      "avantages": [
+        "Tous les modèles premium débloqués pendant 30 jours",
+        "PDF sans limite : CV, lettres, contrats, factures",
+        "Cachet et signature sur vos documents",
+        "Nouveaux modèles et mises à jour inclus",
+        "Support prioritaire sur WhatsApp",
+        "Le meilleur prix : 25 % moins cher que 4 pass semaine"
+      ]
+    }
+  ]
+}
