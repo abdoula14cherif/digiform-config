@@ -68,5 +68,10 @@
         "Le meilleur prix : 25 % moins cher que 4 pass semaine"
       ]
     }
-  ]
+  ],
+  "miseAJour": {
+    "obligatoire": false,
+    "versionMin": 0,
+    "message": ""
+  }
 }
