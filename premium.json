@@ -41,10 +41,21 @@
     "carte-vague"
   ],
   "unlockAll": false,
+  "admin": {
+    "s": "",
+    "h": ""
+  },
   "miseAJour": {
     "obligatoire": false,
     "versionMin": 0,
     "message": ""
+  },
+  "annonce": {
+    "id": "",
+    "titre": "",
+    "texte": "",
+    "lien": "",
+    "bouton": ""
   },
   "paiement": {
     "lien": "",
@@ -85,6 +96,7 @@
       ]
     }
   ],
+  "revendeurs": [],
   "codes": [
     {
       "h": "aba47499b5bb98763208f707589e04ca473b43599d50c9053338d16a33069d96",
