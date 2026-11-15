@@ -1,12 +1,6 @@
 {
   "premium": [
-    "bandeau",
-    "chrono",
-    "profil-commerce",
-    "profil-comptabilite",
     "profil-informatique",
-    "profil-enseignement",
-    "profil-sante",
     "profil-btp",
     "profil-secretariat",
     "profil-reconversion",
@@ -18,12 +12,10 @@
     "candidature-recommandation",
     "spontanee-petite-entreprise",
     "spontanee-ong",
-    "demande-attestation",
     "demande-avance",
     "demande-augmentation",
     "demande-recommandation",
     "demission-remerciements",
-    "demande-certificat-travail",
     "email-accepter-offre",
     "email-refuser-offre",
     "email-negocier-salaire",
@@ -31,13 +23,22 @@
     "doc-recu-paiement",
     "facture-societe",
     "facture-wax",
-    "carte-onyx",
-    "carte-studio",
     "carte-minimal",
-    "carte-neon",
-    "carte-portrait",
-    "carte-elegant",
-    "carte-luxe"
+    "carte-luxe",
+    "duo",
+    "chrono",
+    "creatif",
+    "elegant",
+    "doc-reconnaissance-dette",
+    "facture-luxe",
+    "facture-pro",
+    "carte-monogramme",
+    "carte-atelier",
+    "carte-moderne",
+    "carte-ruban",
+    "carte-geometrique",
+    "carte-bandeau",
+    "carte-vague"
   ],
   "unlockAll": false,
   "miseAJour": {
@@ -79,7 +80,8 @@
         "Cachet et signature sur vos documents",
         "Nouveaux modèles et mises à jour inclus",
         "Support prioritaire sur WhatsApp",
-        "Le meilleur prix : 25 % moins cher que 4 pass semaine"
+        "Le meilleur prix : 25 % moins cher que 4 pass semaine",
+        "Possibilité de revendre le code d'accès à votre prix"
       ]
     }
   ],
