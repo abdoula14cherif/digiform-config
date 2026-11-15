@@ -27,23 +27,37 @@
     "email-accepter-offre",
     "email-refuser-offre",
     "email-negocier-salaire",
-    "email-report-entretien"
+    "email-report-entretien",
+    "doc-recu-paiement",
+    "facture-societe",
+    "facture-wax",
+    "carte-onyx",
+    "carte-studio",
+    "carte-minimal",
+    "carte-neon",
+    "carte-portrait",
+    "carte-elegant",
+    "carte-luxe"
   ],
   "unlockAll": false,
+  "miseAJour": {
+    "obligatoire": false,
+    "versionMin": 0,
+    "message": ""
+  },
   "paiement": {
     "lien": "",
     "prix": "",
     "libelle": "Payer maintenant",
     "whatsapp": "237675371857"
   },
-  "codes": [],
   "plans": [
     {
       "id": "semaine",
       "nom": "Pass semaine",
       "prix": "500 FCFA",
       "jours": 7,
-      "lien": "",
+      "lien": "https://pay.soleaspay.com/link/5SHSUHNMFC",
       "populaire": false,
       "avantages": [
         "Tous les modèles premium débloqués pendant 7 jours",
@@ -57,7 +71,7 @@
       "nom": "Pass mois",
       "prix": "1 500 FCFA",
       "jours": 30,
-      "lien": "",
+      "lien": "https://pay.soleaspay.com/link/5SHSUHNMFC",
       "populaire": true,
       "avantages": [
         "Tous les modèles premium débloqués pendant 30 jours",
@@ -69,9 +83,10 @@
       ]
     }
   ],
-  "miseAJour": {
-    "obligatoire": false,
-    "versionMin": 0,
-    "message": ""
-  }
+  "codes": [
+    {
+      "h": "aba47499b5bb98763208f707589e04ca473b43599d50c9053338d16a33069d96",
+      "p": "semaine"
+    }
+  ]
 }
