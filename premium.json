@@ -56,7 +56,7 @@
     {
       "id": "semaine",
       "nom": "Pass semaine",
-      "prix": "500 FCFA",
+      "prix": "300 FCFA",
       "jours": 7,
       "lien": "https://pay.soleaspay.com/link/5SHSUHNMFC",
       "populaire": false,
@@ -70,7 +70,7 @@
     {
       "id": "mois",
       "nom": "Pass mois",
-      "prix": "1 500 FCFA",
+      "prix": "800 FCFA",
       "jours": 30,
       "lien": "https://pay.soleaspay.com/link/5SHSUHNMFC",
       "populaire": true,
