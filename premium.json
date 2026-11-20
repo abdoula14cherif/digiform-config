@@ -41,9 +41,17 @@
     "carte-vague"
   ],
   "unlockAll": false,
+  "essai": {
+    "actif": true,
+    "jours": 3
+  },
+  "filigrane": {
+    "actif": true,
+    "texte": "Créé avec Digiform"
+  },
   "admin": {
-    "s": "a328646b6f82452ba0208f662bc5e614",
-    "h": "adef77f7d6ea1ce33aae73cdd7eda250d324cc6896b13d989fd43ef7677389e4"
+    "s": "",
+    "h": ""
   },
   "miseAJour": {
     "obligatoire": false,
