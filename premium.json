@@ -38,20 +38,17 @@
     "carte-ruban",
     "carte-geometrique",
     "carte-bandeau",
-    "carte-vague"
+    "carte-vague",
+    "salle-carte"
   ],
   "unlockAll": false,
   "essai": {
-    "actif": true,
+    "actif": false,
     "jours": 3
   },
   "filigrane": {
     "actif": true,
     "texte": "Créé avec Digiform"
-  },
-  "admin": {
-    "s": "9dc18f97ac62db906e2dda82afdb3d95",
-    "h": "612494796c5ec3709400f590f3f54ba805af79a4a5a64fc3f457aa1d85248fcd"
   },
   "miseAJour": {
     "obligatoire": false,
@@ -65,6 +62,11 @@
     "lien": "",
     "bouton": ""
   },
+  "admin": {
+    "s": "9dc18f97ac62db906e2dda82afdb3d95",
+    "h": "612494796c5ec3709400f590f3f54ba805af79a4a5a64fc3f457aa1d85248fcd"
+  },
+  "revendeurs": [],
   "paiement": {
     "lien": "",
     "prix": "",
@@ -75,7 +77,7 @@
     {
       "id": "semaine",
       "nom": "Pass semaine",
-      "prix": "300 FCFA",
+      "prix": "350 FCFA",
       "jours": 7,
       "lien": "https://pay.soleaspay.com/link/5SHSUHNMFC",
       "populaire": false,
@@ -104,7 +106,6 @@
       ]
     }
   ],
-  "revendeurs": [],
   "codes": [
     {
       "h": "aba47499b5bb98763208f707589e04ca473b43599d50c9053338d16a33069d96",
